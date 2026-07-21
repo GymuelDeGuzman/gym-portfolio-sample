@@ -22,11 +22,11 @@ pipeline {
 
           sh '''
 
-            az storage file upload-batch \
+            az storage file upload-batch 
 
-              --account-name "$AZ_ACCOUNT" --account-key "$AZ_KEY" \
+              --account-name "$AZ_ACCOUNT" --account-key "$AZ_KEY" 
 
-              --destination "$AZ_SHARE" --source . \
+              --destination "$AZ_SHARE" --source . 
 
               --pattern "*.html" --no-progress
 
