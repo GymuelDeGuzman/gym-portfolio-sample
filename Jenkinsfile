@@ -4,7 +4,7 @@ pipeline {
 
   environment {
 
-    AZ_ACCOUNT = 'gymst'   // same as $STG
+    AZ_ACCOUNT = 'gymstg'   // same as $STG
 
     AZ_SHARE   = 'webcontent'
 
